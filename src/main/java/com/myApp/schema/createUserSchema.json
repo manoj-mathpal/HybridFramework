@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "new_user": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "boolean"
+    },
+    "email_id": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "success",
+    "new_user",
+    "name",
+    "email_id"
+  ]
+}
